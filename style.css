@@ -77,3 +77,9 @@ footer{
     margin-top: 2rem; /*altura do topo da margem
                         externa do rodapé em 2 rem*/
 }
+
+
+.graficos-container{margin:5rem;}
+.graficos-container__texto{font-size: 1.3rem; text-align:center;padding:2rem; border: var(--secondary-color)solid 2px}
+span{font-weight:bold; color:var(--secondary-color);}
+ 
