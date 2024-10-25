@@ -1,4 +1,6 @@
+
 const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
+
 
 
 async function visualizarInformacoesGlobais(){
@@ -11,7 +13,7 @@ async function visualizarInformacoesGlobais(){
     const porcentagemConecta=((pessoasConectadas/pessoasNoMundo)*100).toFixed(2)
     const paragrafo=document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML=`você sabia que o mundo tem <span>${pessoasNoMundo} billhoes</span> de pessoas e que aproximadamente <span>${pessoasConectadas}
+    paragrafo.innerHTML=`você sabia que o mundo tem <span>${pessoasNoMundo} bilhoes</span> de pessoas e que aproximadamente <span>${pessoasConectadas}
     bilhoes </span> estao conectadas em alguma rede social e passam em media <span>${horas}</span> horas e <span>${minutos}</span> minutos conectadas.
 <br> Isso significa que aproximadamente <span>${porcentagemConecta}%</span> de pessoas estao conectadas em alguma rede social.`
     
